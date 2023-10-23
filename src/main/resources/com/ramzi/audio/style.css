@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.bg{
+/*    set gradient */
+    -fx-background-color: linear-gradient(to bottom, #33393D, #33353D);
+}
+.ppn{
+    -fx-cursor: pointer;
+}
+.ppn:hover{
+    -fx-opacity: 0.8;
+    -fx-cursor: pointer;
+}
+.artist{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-fill: #DADADA;
+}
+.album{
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-fill: #DADADA;
+}
+.title{
+    -fx-font-size: 15px;
+    -fx-font-weight: 600;
+    -fx-fill: #DADADA;
+}
+.progress-bar{
+    -fx-background-radius: 10;
+}
+.progress-bar > .track {
+    -fx-padding: 0;
+    -fx-text-box-border: #C4C4C4FF;
+    -fx-control-inner-background: #c4c4c4;
+    -fx-background-radius: 10;
+
+}
+.progress-bar > .bar{
+    -fx-control-inner-background: #F95650;
+    -fx-background-color: #F95650;
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+}
