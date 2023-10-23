@@ -17,7 +17,7 @@ import java.beans.EventHandler;
 import java.io.File;
 
 public class Controller {
-    File directory = new File("H:\\Documents\\JAVA\\MusicPlayer\\demo\\Musics");
+    File directory = new File("PATH\\Musics");
     FileManager FM = new FileManager(directory);
     String currentMusic = FM.returnCurrentMusic();
     Music music = new Music(currentMusic);
